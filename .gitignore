@@ -1,0 +1,12 @@
+__pycache__
+
+# in and output files
+*.xls
+*.csv
+*.docx
+
+# environments
+venv/
+
+# documentation raw files
+*.odt

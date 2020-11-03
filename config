@@ -1,0 +1,9 @@
+# configurations
+#
+#
+
+# directory containing doodle file(s)
+doodles/
+
+# direcotry to put output data
+./
