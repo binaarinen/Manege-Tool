@@ -53,7 +53,7 @@ def doodle(doodle):
                 for day in range(len(rowsplit)):
                     month = tmpdates[day]
                     Trainingsday.trainings.append(Training(str(rowsplit[day] + "." + month)))
-            elif rownum >= 7:                    # read in TL and their preferences
+            elif rownum >= 6:                    # read in TL and their preferences
                 if row[2:7] == 'Count':
                     break
                 else:
