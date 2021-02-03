@@ -67,6 +67,7 @@ def doodle(doodle):
                         if wish != "":
                             for attr, value in Trainingsday.trainings[i].__dict__.items():
                                 for dis in TLdiscs:
+                                    dis = dis.upper()
                                     if attr == dis and wish == "OK":
                                         value.append(TLname + ",\n")
                                     elif attr == 'CAN' and wish == "(OK)":

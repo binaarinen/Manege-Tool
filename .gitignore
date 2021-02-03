@@ -11,3 +11,6 @@ venv/
 
 # documentation raw files
 *.odt
+
+# doodles
+doodles/
