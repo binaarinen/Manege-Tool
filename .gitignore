@@ -13,4 +13,6 @@ venv/
 *.odt
 
 # doodles
-doodles/
+doodles/*
+
+!.gitkeep
